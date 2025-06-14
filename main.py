@@ -7,7 +7,7 @@ import os
 from config import BASE_MODEL_ID, SUMMARIZATION_HF_TOKEN, NGROK_PORT, NGROK_AUTH_TOKEN
 from model_loader import load_quantized_model
 from app import create_app
-from utils import clear_gpu_cache
+from utils.utils import clear_gpu_cache
 
 def main():
     nest_asyncio.apply()
