@@ -1,7 +1,7 @@
 # embeddings.py
 from langchain.chains import RetrievalQA
 from model_loader import setup_llm
-from pdf_processor import setup_retriever
+from chatbot.pdf_processor import setup_retriever
 
 def setup_qa_chain():
     llm = setup_llm()
